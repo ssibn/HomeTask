@@ -20,9 +20,11 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-
-body{background: #b6cbe8;background-image: url("../cloud.png");background-attachment: fixed;animation: cloud 10s ease infinite;}@keyframes cloud{from{background-position-x: 0px;}to{background-position-x: 500px;}}
-
+body{
+    background: var(--bg-main);
+    /* font-family: 'Montserrat'; */
+    /* font-family: 'Dancing Script', cursive; */
+}
 p, h1, h2, h3, h4, h5 {
   color: inherit;
   font-family: inherit;
@@ -32,7 +34,6 @@ p{
     line-height: 120%;
 }
 a{
-    width: 240px;
     background: inherit;
     color: inherit;
     text-decoration: none;
@@ -222,7 +223,23 @@ a{
 
 
 /* ----------container------------ */
-
+.body-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.main-container{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+.content-container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 /* ----------aside------------ */
 .aside-container{

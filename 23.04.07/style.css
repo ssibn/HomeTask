@@ -20,7 +20,7 @@ body
     min-height: 500px;
     background: rgba(84, 164, 68, 0.5);
 }
-h2, p
+h2
 {
     color: #9c27b0;
 }
@@ -142,15 +142,4 @@ h2, p
   .form-btn input:last-child
   {
     right: 0;
-  }
-
-  table{
-    padding: 5px;
-    background: rgba(84, 164, 68, 0.5);
-  }
-
-  th{
-    border: 1px solid;
-    width: 300px;
-    text-align: left
   }

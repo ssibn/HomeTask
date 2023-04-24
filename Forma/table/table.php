@@ -11,7 +11,7 @@
 <body>
     <section  class="tables-example">
         <?php
-        require_once '../config/connect.php'; //импортируем код из файла
+        require_once ('../config/connect.php'); //импортируем код из файла
         $forms = mysqli_query($connect, "SELECT * FROM `forms`"); //создаём переменную и указываем переменную из файла и sql запрос на всю таблицу
         $forms = mysqli_fetch_all($forms); //парсим полученный объект из sql запроса
         foreach ($forms as $formValue){  //перебираем продукты циклом
@@ -60,7 +60,7 @@
                 <tr>
                     <td>Update:</td>
                     <td>
-                        <a href='../vendor/update_form.php?id=<?= $formValue[0] ?>'>Update</a>
+                        <a href='../vendor/update_form.php?id=<?= $product[0] ?>'>Update</a>
                     </td>
                 </tr>
             </tbody>

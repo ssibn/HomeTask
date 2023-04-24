@@ -9,16 +9,14 @@
     <title>Form</title>
 </head>
 <body>
-    <div class="openForm">
-        <button class="btn">Открыть форму</button>
-    </div>
+    <div class="openForm">Открыть форму</div>
     <div class="form-wrap box-shadow none">
         <span class="close">×</span>
         <h2>Форма для отправки данных</h2>
         <form action="./vendor/create.php" method="POST">
             <div class="form-input">
                 <label for="userName">name:</label>
-                <input type="text" id="userName" name="userName" placeholder="Ваше имя">
+                <input type="text" id="userName" name="userName" placeholder="Ваше имя" required="">
             </div>
             
             <div class="form-input">
@@ -37,7 +35,7 @@
             </div> -->
 
             <div class="form-input">
-             <label for="message">message:</label>
+                <label for="message">message:</label>
                 <textarea id="message" name="userMessage" rows="0"></textarea>
             </div>
 
@@ -71,6 +69,5 @@
             </div>
         </form>
     </div>
-    <script src="./js/popap.js"></script>
 </body>
 </html>

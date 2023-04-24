@@ -6,7 +6,6 @@
     min-height: 400px;
     border-radius: 7px;
     color: var(--color-dim-gray);
-    background: rgba(134, 209, 90, 0.647);
 }
 .close{
     position: absolute;

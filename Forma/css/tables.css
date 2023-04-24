@@ -9,7 +9,7 @@ table{
     border: 1px solid #ddd;
     border-spacing: 10px;
     border-radius: 3px;
-    background: rgba(253, 253, 253, 0.6);
+    background: #fdfdfd;
     font-size: 14px;
     width: auto;
   }
@@ -27,36 +27,14 @@ table{
     text-align: right;
     color: #547901;
   }
-  .question, .answer{
+  .question{
     width: 250px;
   }
   .answer{
-    background-color: rgba(127, 255, 212, 0.6);
+    width: 250px;
+    background-color:aquamarine;
   }
 .link{
   text-align: center;
   width: 100%;
-  height: 100%;
-}
-.openForm{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.formUpdate{
-  height: 100%;
-  display: flex;
-}
-.btn, a{
-  position: relative;
-  width: 150px;
-  height: 55px;
-  border-radius: 5px;
-  background: var(--color-rosy-brown);
-  cursor: pointer;
-}
-
-.none{
-  display: none;
 }
